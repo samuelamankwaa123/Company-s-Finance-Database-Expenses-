@@ -26,7 +26,9 @@ GROUP BY category;
 SELECT *
 FROM expenses
 ORDER BY expense_date DESC
-LIMIT 3;
+--we limit by choice
+LIMIT 4;
+
 SELECT *
 FROM expenses
 WHERE amount > 1000;
